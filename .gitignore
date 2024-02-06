@@ -1,0 +1,16 @@
+/target
+.idea
+restful-example-mauricio-szabo.iml
+/classes
+/checkouts
+profiles.clj
+pom.xml
+pom.xml.asc
+*.jar
+*.class
+/.lein-*
+/.nrepl-port
+/.prepl-port
+target
+.hgignore
+.hg/
