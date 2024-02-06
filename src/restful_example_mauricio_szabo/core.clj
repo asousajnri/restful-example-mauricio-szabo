@@ -43,6 +43,9 @@
       http/default-interceptors
       (update ::http/interceptors conj (body-params/body-params))))
 
+(defn create-server []
+ (http/create-server pedestal-config))
+
 (defn foo
   "I don't do a whole lot."
   [x]

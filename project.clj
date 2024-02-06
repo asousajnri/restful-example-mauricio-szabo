@@ -13,5 +13,5 @@
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all
                        :jvm-opts ["-Dclojure-compiler.direct-linking=true"]}
-             :dev {:dependencies []
+             :dev {:dependencies [[nubank/matcher-combinators "3.1.1"]]
                    :source-paths ["dev"]}})
